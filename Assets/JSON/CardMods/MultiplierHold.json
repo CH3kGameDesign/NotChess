@@ -1,0 +1,1 @@
+﻿{"id":"MultiplierHold","name":"Multiplier Hold","description":"Adds 1 Multiplier On Hold","cost":"2","weight":"1","sprAddressable":{"id":"S_MultiplierHold"},"triggerType":"onHold","effectID":"multiplierAdd","effectVar":"1"}

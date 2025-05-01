@@ -1,0 +1,1 @@
+﻿{"id":"NewFactory","name":"New Factory","description":"Gain a free Factory card","sprAddressable":{"id":"S_Factory"},"weight":"1","effectID":"cardGet","effectVar":"Factory"}

@@ -1,0 +1,37 @@
+﻿{"id":"C_003","name":"Castle Raid","description":"Raid the castle (with more castles).","troopIDs":[
+  {"array":[
+  "Empty","Pawn","King","Pawn","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Rook","Pawn","Rook","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Pawn","Empty","Pawn","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Rook","Empty","Rook","Empty","Empty","Empty","Empty"]
+}]
+,"isEnemy":[
+  {"array":[
+  "FALSE","TRUE","TRUE","TRUE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","TRUE","TRUE","TRUE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","TRUE","FALSE","TRUE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+}]
+,"turnLimit":"3","cards":[
+  "Martyrdom","Backup","ArrowStrike","N/A"]
+,"gameModifiers":[
+  "N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A"]
+,"sizeX":"5"}

@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 279138f563658814b8bc632397167f43, type: 3}
+  m_Name: Troop List
+  m_EditorClassIdentifier: 
+  list:
+  - id: Pawn
+    name: Pawn
+    description: Basic Chess Pawn
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_Pawn
+      obj: {fileID: 8323222544534985535, guid: caf36cee70f781b42a76b4ce6b4b7193, type: 3}
+    sprAddressable:
+      id: S_Pawn
+      spr: {fileID: 21300000, guid: 7e1973f06b2e69a4fa89233274c49eef, type: 3}
+    movementArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000005000000000000000000000000000000
+    - array: 00000000000000000400000003000000040000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    points: 5
+    multiplier: 5
+    switchOnReachEnd: Queen
+    extraTurnsOnEnemyKill: 0
+  - id: Knight
+    name: Knight
+    description: Basic Chess Knight
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_Knight
+      obj: {fileID: 3335370762001189686, guid: 76a9831f264d1f046a84f4148387b911, type: 3}
+    sprAddressable:
+      id: S_Knight
+      spr: {fileID: 21300000, guid: dbc2dc009204f384f83fb7fcbb6e6e29, type: 3}
+    movementArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000100000000000000010000000000000000000000
+    - array: 00000000010000000000000000000000000000000100000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000010000000000000000000000000000000100000000000000
+    - array: 00000000000000000100000000000000010000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    points: 10
+    multiplier: 10
+    switchOnReachEnd: N/A
+    extraTurnsOnEnemyKill: 0
+  - id: Bishop
+    name: Bishop
+    description: Basic Chess Bishop
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_Bishop
+      obj: {fileID: 2881456142485790033, guid: 0a66bf3a33172ef438df62575f3fc55b, type: 3}
+    sprAddressable:
+      id: S_Bishop
+      spr: {fileID: 21300000, guid: 3991ff03c45db844687159ee45ddb5b3, type: 3}
+    movementArray:
+    - array: 02000000000000000000000000000000000000000000000002000000
+    - array: 00000000020000000000000000000000000000000200000000000000
+    - array: 00000000000000000100000000000000010000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000100000000000000010000000000000000000000
+    - array: 00000000020000000000000000000000000000000200000000000000
+    - array: 02000000000000000000000000000000000000000000000002000000
+    points: 10
+    multiplier: 10
+    switchOnReachEnd: N/A
+    extraTurnsOnEnemyKill: 0
+  - id: Rook
+    name: Rook
+    description: Basic Chess Rook
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_Rook
+      obj: {fileID: 6138499487919103, guid: dc93e36885ebf0c4083f5b5ba8ccff12, type: 3}
+    sprAddressable:
+      id: S_Rook
+      spr: {fileID: 21300000, guid: 580373cf13fd2f4468d894429e945ef9, type: 3}
+    movementArray:
+    - array: 00000000000000000000000002000000000000000000000000000000
+    - array: 00000000000000000000000002000000000000000000000000000000
+    - array: 00000000000000000000000001000000000000000000000000000000
+    - array: 02000000020000000100000000000000010000000200000002000000
+    - array: 00000000000000000000000001000000000000000000000000000000
+    - array: 00000000000000000000000002000000000000000000000000000000
+    - array: 00000000000000000000000002000000000000000000000000000000
+    points: 10
+    multiplier: 10
+    switchOnReachEnd: N/A
+    extraTurnsOnEnemyKill: 0
+  - id: Queen
+    name: Queen
+    description: Basic Chess Queen
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_Queen
+      obj: {fileID: 496508809588750755, guid: 741e35a593fe9e946b1c864ae097335f, type: 3}
+    sprAddressable:
+      id: S_Queen
+      spr: {fileID: 21300000, guid: e8c9493c28893334fb3d338c27f80d1b, type: 3}
+    movementArray:
+    - array: 02000000000000000000000002000000000000000000000002000000
+    - array: 00000000020000000000000002000000000000000200000000000000
+    - array: 00000000000000000100000001000000010000000000000000000000
+    - array: 02000000020000000100000000000000010000000200000002000000
+    - array: 00000000000000000100000001000000010000000000000000000000
+    - array: 00000000020000000000000002000000000000000200000000000000
+    - array: 02000000000000000000000002000000000000000000000002000000
+    points: 15
+    multiplier: 15
+    switchOnReachEnd: N/A
+    extraTurnsOnEnemyKill: 0
+  - id: King
+    name: King
+    description: Basic Chess King
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_King
+      obj: {fileID: 1620940504629721079, guid: 1c48996a61023b84199d102f2d7aaa4a, type: 3}
+    sprAddressable:
+      id: S_King
+      spr: {fileID: 21300000, guid: ce9ff1f863678d74381ade2166ecf691, type: 3}
+    movementArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000100000001000000010000000000000000000000
+    - array: 00000000000000000100000000000000010000000000000000000000
+    - array: 00000000000000000100000001000000010000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    points: 20
+    multiplier: 20
+    switchOnReachEnd: N/A
+    extraTurnsOnEnemyKill: 0
+  - id: CheckersPawn
+    name: Checkers Pawn
+    description: Basic Checkers Piece
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_Checkers
+      obj: {fileID: 6063071637605012146, guid: 95aa464890f6a6b4f8e87cc2278ee017, type: 3}
+    sprAddressable:
+      id: S_Checkers
+      spr: {fileID: 21300000, guid: 94d5bf0bf78870343b3600ce40e3a452, type: 3}
+    movementArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000060000000000000000000000000000000600000000000000
+    - array: 00000000000000000300000000000000030000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    points: 10
+    multiplier: 10
+    switchOnReachEnd: CheckersKing
+    extraTurnsOnEnemyKill: 100
+  - id: CheckersKing
+    name: Checkers King
+    description: Basic Checkers King
+    isPlayer: 1
+    hasMoved: 0
+    mod:
+      id: 
+      name: 
+      description: 
+      colorVector: {x: 0, y: 0, z: 0, w: 0}
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      weight: 0
+      triggerType: 
+      targetArray: []
+      effectID: 
+      effectVar: 
+    modEffects: []
+    objAddressable:
+      id: PF_CheckersKing
+      obj: {fileID: 9052483173551968512, guid: 7b5dd04147dadf44d9f9bbfb0db5c752, type: 3}
+    sprAddressable:
+      id: S_CheckersKing
+      spr: {fileID: 21300000, guid: 7972e55ee7c23e24298b39fdfdac3a0d, type: 3}
+    movementArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000060000000000000000000000000000000600000000000000
+    - array: 00000000000000000300000000000000030000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000300000000000000030000000000000000000000
+    - array: 00000000060000000000000000000000000000000600000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    points: 15
+    multiplier: 15
+    switchOnReachEnd: N/A
+    extraTurnsOnEnemyKill: 100

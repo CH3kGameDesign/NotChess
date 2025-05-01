@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d28cd2331b8d28c47aee6360ed5a2673, type: 3}
+  m_Name: Card List
+  m_EditorClassIdentifier: 
+  F_modChance: 0.25
+  list:
+  - id: KingsGuard
+    name: King's Guard
+    description: Spawns Pawns surrounding friendly troop
+    cardType: cardAction
+    sprAddressable:
+      id: S_KingsGuard
+      spr: {fileID: 21300000, guid: 007af8dffc108574b89c22b18909dd91, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 103
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000006900000069000000690000000000000000000000
+    - array: 00000000000000006900000000000000690000000000000000000000
+    - array: 00000000000000006900000069000000690000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopSpawn
+    effectVar: Pawn
+    cost: 3
+    weight: 1
+  - id: ArrowStrike
+    name: Arrow Strike
+    description: Destroys a single enemy troop
+    cardType: cardAction
+    sprAddressable:
+      id: S_ArrowStrike
+      spr: {fileID: 21300000, guid: d414cb66b6cb448469aebb46dc4db978, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 104
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopDefeat
+    effectVar: N/A
+    cost: 3
+    weight: 1
+  - id: TwicetheMan
+    name: Twice the Man
+    description: Doubles how much each affected piece is worth
+    cardType: cardAction
+    sprAddressable:
+      id: S_TwiceTheMan
+      spr: {fileID: 21300000, guid: e28fce8c13071b040a3478c9672521f1, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 101
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000006700000067000000670000000000000000000000
+    - array: 00000000000000006700000067000000670000000000000000000000
+    - array: 00000000000000006700000067000000670000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopPointMultiply
+    effectVar: 2
+    cost: 3
+    weight: 1
+  - id: HeartChange
+    name: Heart Change
+    description: Take Over an Enemy Troop
+    cardType: cardAction
+    sprAddressable:
+      id: S_HeartChange
+      spr: {fileID: 21300000, guid: ae47d5be954729b48b4b531f2e50d175, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 104
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopControl
+    effectVar: N/A
+    cost: 4
+    weight: 1
+  - id: Monarchy
+    name: Monarchy
+    description: Turn A Friendly Troop into a Queen
+    cardType: cardAction
+    sprAddressable:
+      id: S_Monarchy
+      spr: {fileID: 21300000, guid: c046740d45868a844ba29f91dbfdd4c8, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 103
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopChange
+    effectVar: Queen
+    cost: 4
+    weight: 1
+  - id: ReturnOftheKing
+    name: Return Of the King
+    description: 'Spawn A King '
+    cardType: cardAction
+    sprAddressable:
+      id: S_ReturnOfTheKing
+      spr: {fileID: 21300000, guid: a3d8e5444f13b5e42a921188189c2bce, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 105
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopSpawn
+    effectVar: King
+    cost: 4
+    weight: 1
+  - id: Empower
+    name: Empower
+    description: Gives a single troop the Empower Modifer.
+    cardType: cardModifier
+    sprAddressable:
+      id: S_Empower
+      spr: {fileID: 21300000, guid: 65af607bd6312284f82a3ccdcec12235, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 103
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopModifier
+    effectVar: Empower
+    cost: 2
+    weight: 1
+  - id: Backup
+    name: Backup
+    description: Gives a single troop the Backup Modifer.
+    cardType: cardModifier
+    sprAddressable:
+      id: S_Backup
+      spr: {fileID: 21300000, guid: cffaa5dc9717825468bcd32f186531f0, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 103
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopModifier
+    effectVar: Backup
+    cost: 2
+    weight: 1
+  - id: Factory
+    name: Factory
+    description: Gives a single troop the Factory Modifer.
+    cardType: cardModifier
+    sprAddressable:
+      id: S_Factory
+      spr: {fileID: 21300000, guid: 028554ee0edab7045b541d884daae5e7, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 103
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopModifier
+    effectVar: Factory
+    cost: 2
+    weight: 1
+  - id: Martyrdom
+    name: Martyrdom
+    description: Gives a single troop the Martyrdom Modifier
+    cardType: cardModifier
+    sprAddressable:
+      id: S_Martyrdom
+      spr: {fileID: 21300000, guid: 92e96468b3a210c47bae9b616d110d1a, type: 3}
+    cardMod:
+      id: 
+      name: 
+      description: 
+      sprAddressable:
+        id: 
+        spr: {fileID: 0}
+      cost: 0
+      weight: 0
+      triggerType: 
+      effectID: 
+      effectVar: 
+    targetTile: 103
+    targetArray:
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000065000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    - array: 00000000000000000000000000000000000000000000000000000000
+    effectID: troopModifier
+    effectVar: Martyrdom
+    cost: 2
+    weight: 1

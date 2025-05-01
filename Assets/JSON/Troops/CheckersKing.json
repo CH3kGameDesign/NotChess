@@ -1,0 +1,17 @@
+﻿{"id":"CheckersKing","name":"Checkers King","description":"Basic Checkers King","objAddressable":{"id":"PF_CheckersKing"},"sprAddressable":{"id":"S_CheckersKing"},"movementArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","6","0","0","0","6","0"]
+},{"array":[
+  "0","0","3","0","3","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","3","0","3","0","0"]
+},{"array":[
+  "0","6","0","0","0","6","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"points":"15","multiplier":"15","switchOnReachEnd":"N/A","extraTurnsOnEnemyKill":"100"}

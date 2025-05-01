@@ -1,0 +1,17 @@
+﻿{"id":"Queen","name":"Queen","description":"Basic Chess Queen","objAddressable":{"id":"PF_Queen"},"sprAddressable":{"id":"S_Queen"},"movementArray":[
+  {"array":[
+  "2","0","0","2","0","0","2"]
+},{"array":[
+  "0","2","0","2","0","2","0"]
+},{"array":[
+  "0","0","1","1","1","0","0"]
+},{"array":[
+  "2","2","1","0","1","2","2"]
+},{"array":[
+  "0","0","1","1","1","0","0"]
+},{"array":[
+  "0","2","0","2","0","2","0"]
+},{"array":[
+  "2","0","0","2","0","0","2"]
+}]
+,"points":"15","multiplier":"15","switchOnReachEnd":"N/A","extraTurnsOnEnemyKill":"0"}

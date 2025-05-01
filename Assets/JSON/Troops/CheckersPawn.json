@@ -1,0 +1,17 @@
+﻿{"id":"CheckersPawn","name":"Checkers Pawn","description":"Basic Checkers Piece","objAddressable":{"id":"PF_Checkers"},"sprAddressable":{"id":"S_Checkers"},"movementArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","6","0","0","0","6","0"]
+},{"array":[
+  "0","0","3","0","3","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"points":"10","multiplier":"10","switchOnReachEnd":"CheckersKing","extraTurnsOnEnemyKill":"100"}

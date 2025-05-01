@@ -1,0 +1,17 @@
+﻿{"id":"Martyrdom","name":"Martyrdom","description":"Gives a single troop the Martyrdom Modifier","cardType":"cardModifier","cost":"2","weight":"1","sprAddressable":{"id":"S_Martyrdom"},"targetTile":"103","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopModifier","effectVar":"Martyrdom"}

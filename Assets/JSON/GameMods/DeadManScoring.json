@@ -1,0 +1,1 @@
+﻿{"id":"DeadManScoring","name":"Dead Man Scoring","description":"Gain +20 Points for every piece of yours that is destroyed","sprAddressable":{"id":"S_Bishop"},"cost":"5","weight":"1","effectID":"pointAdd","effectVar":"20","effectVar2":"N/A","triggerID":"allyDeath"}

@@ -1,0 +1,17 @@
+﻿{"id":"ReturnOftheKing","name":"Return Of the King","description":"Spawn A King ","cardType":"cardAction","cost":"4","weight":"1","sprAddressable":{"id":"S_ReturnOfTheKing"},"targetTile":"105","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopSpawn","effectVar":"King"}

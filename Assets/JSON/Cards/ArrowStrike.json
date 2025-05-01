@@ -1,0 +1,17 @@
+﻿{"id":"ArrowStrike","name":"Arrow Strike","description":"Destroys a single enemy troop","cardType":"cardAction","cost":"3","weight":"1","sprAddressable":{"id":"S_ArrowStrike"},"targetTile":"104","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopDefeat","effectVar":"N/A"}

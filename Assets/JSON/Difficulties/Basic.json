@@ -1,0 +1,1 @@
+﻿{"id":"Basic","name":"Basic","description":"Basic Difficulty","sprAddressable":{"id":"S_Pawn"},"roundsPerStage":"3","multiplierPerRound":"0.5","tarScore":{"Base":"600","Linear":"-1000","Coefficient2":"200","Coefficient3":"1000","MilestoneRate":"0","MilestoneMultiplier":"0"}}

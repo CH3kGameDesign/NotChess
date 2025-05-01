@@ -1,0 +1,17 @@
+﻿{"id":"Knight","name":"Knight","description":"Basic Chess Knight","objAddressable":{"id":"PF_Knight"},"sprAddressable":{"id":"S_Knight"},"movementArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","1","0","1","0","0"]
+},{"array":[
+  "0","1","0","0","0","1","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","1","0","0","0","1","0"]
+},{"array":[
+  "0","0","1","0","1","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"points":"10","multiplier":"10","switchOnReachEnd":"N/A","extraTurnsOnEnemyKill":"0"}

@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c89df1ad642c9d4a96fef7ba4817056, type: 3}
+  m_Name: Challenge List
+  m_EditorClassIdentifier: 
+  list:
+  - id: C_001
+    name: Recruitment
+    description: Practice using cards and checkers pieces.
+    troopIDs:
+    - array:
+      - Null
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Null
+      - Empty
+    - array:
+      - Null
+      - Empty
+      - Pawn
+      - Empty
+      - Pawn
+      - Empty
+      - Null
+      - Empty
+    - array:
+      - Null
+      - King
+      - Null
+      - Null
+      - Null
+      - Empty
+      - Null
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Queen
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - CheckersPawn
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    isEnemy:
+    - array: 0000000000000000
+    - array: 0000000001000000
+    - array: 0001000000000000
+    - array: 0000000001000000
+    - array: 0000000100000000
+    - array: 0000000000000000
+    turnLimit: 2
+    cards:
+    - HeartChange
+    - N/A
+    - N/A
+    - N/A
+    gameModifiers:
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    sizeX: 7
+  - id: C_002
+    name: Backed In A Corner
+    description: Oh how the turn tables.
+    troopIDs:
+    - array:
+      - Empty
+      - King
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - CheckersPawn
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Pawn
+      - Empty
+      - Knight
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    isEnemy:
+    - array: 0001000000000000
+    - array: 0000000100000000
+    - array: 0000000000000000
+    - array: 0100000000000000
+    - array: 0000000000000000
+    turnLimit: 2
+    cards:
+    - KingsGuard
+    - HeartChange
+    - N/A
+    - N/A
+    gameModifiers:
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    sizeX: 4
+  - id: C_003
+    name: Castle Raid
+    description: Raid the castle (with more castles).
+    troopIDs:
+    - array:
+      - Empty
+      - Pawn
+      - King
+      - Pawn
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Rook
+      - Pawn
+      - Rook
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Pawn
+      - Empty
+      - Pawn
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    - array:
+      - Empty
+      - Rook
+      - Empty
+      - Rook
+      - Empty
+      - Empty
+      - Empty
+      - Empty
+    isEnemy:
+    - array: 0001010100000000
+    - array: 0001010100000000
+    - array: 0001000100000000
+    - array: 0000000000000000
+    - array: 0000000000000000
+    - array: 0000000000000000
+    - array: 0000000000000000
+    turnLimit: 3
+    cards:
+    - Martyrdom
+    - Backup
+    - ArrowStrike
+    - N/A
+    gameModifiers:
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    - N/A
+    sizeX: 5

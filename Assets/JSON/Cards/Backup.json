@@ -1,0 +1,17 @@
+﻿{"id":"Backup","name":"Backup","description":"Gives a single troop the Backup Modifer.","cardType":"cardModifier","cost":"2","weight":"1","sprAddressable":{"id":"S_Backup"},"targetTile":"103","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopModifier","effectVar":"Backup"}

@@ -1,0 +1,17 @@
+﻿{"id":"King","name":"King","description":"Basic Chess King","objAddressable":{"id":"PF_King"},"sprAddressable":{"id":"S_King"},"movementArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","1","1","1","0","0"]
+},{"array":[
+  "0","0","1","0","1","0","0"]
+},{"array":[
+  "0","0","1","1","1","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"points":"20","multiplier":"20","switchOnReachEnd":"N/A","extraTurnsOnEnemyKill":"0"}

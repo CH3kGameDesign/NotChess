@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 475b51573a16f7142b58fb6699b3c876, type: 3}
+  m_Name: Store Pack List
+  m_EditorClassIdentifier: 
+  list:
+  - id: StandardCardPack
+    name: Standard Card Pack
+    description: Pick 1 of 3 Cards
+    sprAddressable:
+      id: S_Pawn
+      spr: {fileID: 21300000, guid: 7e1973f06b2e69a4fa89233274c49eef, type: 3}
+    cost: 3
+    weight: 6
+    packType: card
+    amt: 1
+    pool: 3
+  - id: LargeCardPack
+    name: Large Card Pack
+    description: Pick 1 of 5 Cards
+    sprAddressable:
+      id: S_Knight
+      spr: {fileID: 21300000, guid: dbc2dc009204f384f83fb7fcbb6e6e29, type: 3}
+    cost: 4
+    weight: 4
+    packType: card
+    amt: 1
+    pool: 5
+  - id: JumboCardPack
+    name: Jumbo Card Pack
+    description: Pick 2 of 5 Cards
+    sprAddressable:
+      id: S_Bishop
+      spr: {fileID: 21300000, guid: 3991ff03c45db844687159ee45ddb5b3, type: 3}
+    cost: 6
+    weight: 3
+    packType: card
+    amt: 2
+    pool: 5

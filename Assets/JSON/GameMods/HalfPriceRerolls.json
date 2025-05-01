@@ -1,0 +1,1 @@
+﻿{"id":"HalfPriceRerolls","name":"Half Price Rerolls","description":"Rerolls in the store are half priced","sprAddressable":{"id":"S_Knight"},"cost":"5","weight":"1","effectID":"rerollCost","effectVar":"0.5","effectVar2":"N/A","triggerID":"passive"}

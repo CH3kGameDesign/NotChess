@@ -1,0 +1,17 @@
+﻿{"id":"HeartChange","name":"Heart Change","description":"Take Over an Enemy Troop","cardType":"cardAction","cost":"4","weight":"1","sprAddressable":{"id":"S_HeartChange"},"targetTile":"104","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopControl","effectVar":"N/A"}

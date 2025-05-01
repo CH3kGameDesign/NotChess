@@ -1,0 +1,1 @@
+﻿{"id":"Greedy","name":"Greedy","description":"Increase Card Limit By 1","sprAddressable":{"id":"S_King"},"cost":"8","weight":"1","effectID":"cardLimitAdd","effectVar":"1","effectVar2":"N/A","triggerID":"passive"}

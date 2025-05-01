@@ -1,0 +1,33 @@
+﻿{"id":"C_001","name":"Recruitment","description":"Practice using cards and checkers pieces.","troopIDs":[
+  {"array":[
+  "Null","Empty","Empty","Empty","Empty","Empty","Null","Empty"]
+},{"array":[
+  "Null","Empty","Pawn","Empty","Pawn","Empty","Null","Empty"]
+},{"array":[
+  "Null","King","Null","Null","Null","Empty","Null","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Queen","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","CheckersPawn","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty"]
+}]
+,"isEnemy":[
+  {"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","TRUE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","TRUE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","TRUE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","TRUE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+}]
+,"turnLimit":"2","cards":[
+  "HeartChange","N/A","N/A","N/A"]
+,"gameModifiers":[
+  "N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A"]
+,"sizeX":"7"}

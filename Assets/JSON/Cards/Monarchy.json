@@ -1,0 +1,17 @@
+﻿{"id":"Monarchy","name":"Monarchy","description":"Turn A Friendly Troop into a Queen","cardType":"cardAction","cost":"4","weight":"1","sprAddressable":{"id":"S_Monarchy"},"targetTile":"103","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopChange","effectVar":"Queen"}

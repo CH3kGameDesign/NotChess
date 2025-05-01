@@ -1,0 +1,1 @@
+﻿{"id":"PointsPlay","name":"Points Play","description":"Adds 50 Points on Play","cost":"1","weight":"1","sprAddressable":{"id":"S_PointsPlay"},"triggerType":"onPlay","effectID":"pointAdd","effectVar":"50"}

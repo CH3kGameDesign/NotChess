@@ -1,0 +1,17 @@
+﻿{"id":"TwicetheMan","name":"Twice the Man","description":"Doubles how much each affected piece is worth","cardType":"cardAction","cost":"3","weight":"1","sprAddressable":{"id":"S_TwiceTheMan"},"targetTile":"101","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","103","103","103","0","0"]
+},{"array":[
+  "0","0","103","103","103","0","0"]
+},{"array":[
+  "0","0","103","103","103","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopPointMultiply","effectVar":"2"}

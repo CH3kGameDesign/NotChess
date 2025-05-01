@@ -1,0 +1,17 @@
+﻿{"id":"Factory","name":"Factory","description":"Spawns a Pawn in front of this troop at the end of each turn.","colorVector":{"x":"0","y":"0","z":"1","w":"1"},"weight":"1","sprAddressable":{"id":"S_Factory"},"triggerType":"turnEnd","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopSpawn","effectVar":"Pawn"}

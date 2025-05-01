@@ -1,0 +1,29 @@
+﻿{"id":"C_002","name":"Backed Into A Corner","description":"Oh how the turn tables.","troopIDs":[
+  {"array":[
+  "Empty","King","Empty","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","CheckersPawn","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Pawn","Empty","Knight","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Empty","Empty","Empty","Empty","Empty","Empty","Empty"]
+}]
+,"isEnemy":[
+  {"array":[
+  "FALSE","TRUE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","TRUE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "TRUE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+}]
+,"turnLimit":"2","cards":[
+  "KingsGuard","HeartChange","N/A","N/A"]
+,"gameModifiers":[
+  "N/A","N/A","N/A","N/A","N/A","N/A","N/A","N/A"]
+,"sizeX":"4"}

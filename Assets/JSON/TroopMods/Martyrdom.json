@@ -1,0 +1,17 @@
+﻿{"id":"Martyrdom","name":"Martyrdom","description":"Destroys Surrounding Troops on Death","colorVector":{"x":"1","y":"0.5","z":"0","w":"1"},"weight":"1","sprAddressable":{"id":"S_Martyrdom"},"triggerType":"onDeath","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","102","102","102","0","0"]
+},{"array":[
+  "0","0","102","0","102","0","0"]
+},{"array":[
+  "0","0","102","102","102","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopDefeat","effectVar":"N/A"}

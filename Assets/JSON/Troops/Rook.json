@@ -1,0 +1,17 @@
+﻿{"id":"Rook","name":"Rook","description":"Basic Chess Rook","objAddressable":{"id":"PF_Rook"},"sprAddressable":{"id":"S_Rook"},"movementArray":[
+  {"array":[
+  "0","0","0","2","0","0","0"]
+},{"array":[
+  "0","0","0","2","0","0","0"]
+},{"array":[
+  "0","0","0","1","0","0","0"]
+},{"array":[
+  "2","2","1","0","1","2","2"]
+},{"array":[
+  "0","0","0","1","0","0","0"]
+},{"array":[
+  "0","0","0","2","0","0","0"]
+},{"array":[
+  "0","0","0","2","0","0","0"]
+}]
+,"points":"10","multiplier":"10","switchOnReachEnd":"N/A","extraTurnsOnEnemyKill":"0"}

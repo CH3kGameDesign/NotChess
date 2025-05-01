@@ -1,0 +1,1 @@
+﻿{"id":"Overstocked","name":"Overstocked","description":"The Store Front always has 1 extra card","sprAddressable":{"id":"S_Queen"},"cost":"6","weight":"1","effectID":"storeSizeAdd","effectVar":"1","effectVar2":"N/A","triggerID":"passive"}

@@ -1,0 +1,17 @@
+﻿{"id":"Bishop","name":"Bishop","description":"Basic Chess Bishop","objAddressable":{"id":"PF_Bishop"},"sprAddressable":{"id":"S_Bishop"},"movementArray":[
+  {"array":[
+  "2","0","0","0","0","0","2"]
+},{"array":[
+  "0","2","0","0","0","2","0"]
+},{"array":[
+  "0","0","1","0","1","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","1","0","1","0","0"]
+},{"array":[
+  "0","2","0","0","0","2","0"]
+},{"array":[
+  "2","0","0","0","0","0","2"]
+}]
+,"points":"10","multiplier":"10","switchOnReachEnd":"N/A","extraTurnsOnEnemyKill":"0"}

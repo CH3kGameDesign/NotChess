@@ -1,0 +1,17 @@
+﻿{"id":"Factory","name":"Factory","description":"Gives a single troop the Factory Modifer.","cardType":"cardModifier","cost":"2","weight":"1","sprAddressable":{"id":"S_Factory"},"targetTile":"103","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","101","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopModifier","effectVar":"Factory"}

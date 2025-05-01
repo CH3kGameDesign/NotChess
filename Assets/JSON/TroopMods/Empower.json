@@ -1,0 +1,17 @@
+﻿{"id":"Empower","name":"Empower","description":"Multiplies the surrounding player troops points by 2.","colorVector":{"x":"1","y":"0","z":"0","w":"1"},"weight":"1","sprAddressable":{"id":"S_Empower"},"triggerType":"passive","targetArray":[
+  {"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","102","102","102","0","0"]
+},{"array":[
+  "0","0","102","0","102","0","0"]
+},{"array":[
+  "0","0","102","102","102","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+},{"array":[
+  "0","0","0","0","0","0","0"]
+}]
+,"effectID":"troopPointMultiply","effectVar":"2"}

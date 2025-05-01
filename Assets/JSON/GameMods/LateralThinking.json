@@ -1,0 +1,1 @@
+﻿{"id":"LateralThinking","name":"Lateral Thinking","description":"Allows Pawns to move sideways","sprAddressable":{"id":"S_Pawn"},"cost":"3","weight":"1","effectID":"movementChange","effectVar":"0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,4,3,4,0,0,0,5,3,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0","effectVar2":"Pawn","triggerID":"passive"}

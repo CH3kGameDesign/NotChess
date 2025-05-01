@@ -1,0 +1,1 @@
+﻿{"id":"BackupBackup","name":"Backup Backup","description":"Gain a free Backup card","sprAddressable":{"id":"S_Backup"},"weight":"1","effectID":"cardGet","effectVar":"Backup"}

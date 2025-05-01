@@ -1,0 +1,25 @@
+﻿{"id":"HorseTrial","name":"Horse Powerrr","description":"Practice using Knights with the Horse Power Modifier.","troopIDs":[
+  {"array":[
+  "Empty","Empty","King","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Queen","Empty","Null","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Pawn","Null","Empty","Empty","Empty","Empty","Empty"]
+},{"array":[
+  "Empty","Knight","Null","Empty","Empty","Empty","Empty","Empty"]
+}]
+,"isEnemy":[
+  {"array":[
+  "FALSE","FALSE","TRUE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "TRUE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+},{"array":[
+  "FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE","FALSE"]
+}]
+,"turnLimit":"1","cards":[
+  "N/A","N/A","N/A","N/A"]
+,"gameModifiers":[
+  "HorsePower","N/A","N/A","N/A","N/A","N/A","N/A","N/A"]
+,"sizeX":"3"}

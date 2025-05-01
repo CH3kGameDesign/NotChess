@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f23c9f0aaa2c6b40a01872e42a35435, type: 3}
+  m_Name: Game Modifier List
+  m_EditorClassIdentifier: 
+  list:
+  - id: PermaMultx2
+    name: Perma Mult x2
+    description: x2 In Game Multiplier
+    sprAddressable:
+      id: S_Queen
+      spr: {fileID: 21300000, guid: e8c9493c28893334fb3d338c27f80d1b, type: 3}
+    cost: 4
+    weight: 1
+    effectID: multiplierMultiply
+    effectVar: 2
+    effectVar2: N/A
+    triggerID: passive
+  - id: HalfPriceRerolls
+    name: Half Price Rerolls
+    description: Rerolls in the store are half priced
+    sprAddressable:
+      id: S_Knight
+      spr: {fileID: 21300000, guid: dbc2dc009204f384f83fb7fcbb6e6e29, type: 3}
+    cost: 5
+    weight: 1
+    effectID: rerollCost
+    effectVar: 0.5
+    effectVar2: N/A
+    triggerID: passive
+  - id: DeadManScoring
+    name: Dead Man Scoring
+    description: Gain +20 Points for every piece of yours that is destroyed
+    sprAddressable:
+      id: S_Bishop
+      spr: {fileID: 21300000, guid: 3991ff03c45db844687159ee45ddb5b3, type: 3}
+    cost: 5
+    weight: 1
+    effectID: pointAdd
+    effectVar: 20
+    effectVar2: N/A
+    triggerID: allyDeath
+  - id: Hoarder
+    name: Hoarder
+    description: Gain +2 Mult for every card held at the end of your turn
+    sprAddressable:
+      id: S_Rook
+      spr: {fileID: 21300000, guid: 580373cf13fd2f4468d894429e945ef9, type: 3}
+    cost: 5
+    weight: 1
+    effectID: multiplierAddPerVar
+    effectVar: 2
+    effectVar2: heldCards
+    triggerID: turnEnd
+  - id: Greedy
+    name: Greedy
+    description: Increase Card Limit By 1
+    sprAddressable:
+      id: S_King
+      spr: {fileID: 21300000, guid: ce9ff1f863678d74381ade2166ecf691, type: 3}
+    cost: 8
+    weight: 1
+    effectID: cardLimitAdd
+    effectVar: 1
+    effectVar2: N/A
+    triggerID: passive
+  - id: Overstocked
+    name: Overstocked
+    description: The Store Front always has 1 extra card
+    sprAddressable:
+      id: S_Queen
+      spr: {fileID: 21300000, guid: e8c9493c28893334fb3d338c27f80d1b, type: 3}
+    cost: 6
+    weight: 1
+    effectID: storeSizeAdd
+    effectVar: 1
+    effectVar2: N/A
+    triggerID: passive
+  - id: HorsePower
+    name: Horse Power
+    description: Knights can attack again if they defeat an enemy
+    sprAddressable:
+      id: S_Knight
+      spr: {fileID: 21300000, guid: dbc2dc009204f384f83fb7fcbb6e6e29, type: 3}
+    cost: 5
+    weight: 1
+    effectID: turnAdd
+    effectVar: 1
+    effectVar2: Knight
+    triggerID: passive
+  - id: LateralThinking
+    name: Lateral Thinking
+    description: Allows Pawns to move sideways
+    sprAddressable:
+      id: S_Pawn
+      spr: {fileID: 21300000, guid: 7e1973f06b2e69a4fa89233274c49eef, type: 3}
+    cost: 3
+    weight: 1
+    effectID: movementChange
+    effectVar: 0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,4,3,4,0,0,0,5,3,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    effectVar2: Pawn
+    triggerID: passive
+  - id: GraveRobber
+    name: Grave Robber
+    description: Gain $1 for every piece of yours that is destroyed
+    sprAddressable:
+      id: S_Bishop
+      spr: {fileID: 21300000, guid: 3991ff03c45db844687159ee45ddb5b3, type: 3}
+    cost: 5
+    weight: 1
+    effectID: cashAdd
+    effectVar: 1
+    effectVar2: N/A
+    triggerID: allyDeath
+  - id: RoyalAdvisor
+    name: Royal Advisor
+    description: Kings are worth x3 as much
+    sprAddressable:
+      id: S_King
+      spr: {fileID: 21300000, guid: ce9ff1f863678d74381ade2166ecf691, type: 3}
+    cost: 3
+    weight: 1
+    effectID: valueMultiply
+    effectVar: 3
+    effectVar2: King
+    triggerID: passive
+  list_unowned:
+  - id: PermaMultx2
+    name: Perma Mult x2
+    description: x2 In Game Multiplier
+    sprAddressable:
+      id: S_Queen
+      spr: {fileID: 21300000, guid: e8c9493c28893334fb3d338c27f80d1b, type: 3}
+    cost: 4
+    weight: 1
+    effectID: multiplierMultiply
+    effectVar: 2
+    effectVar2: N/A
+    triggerID: passive
+  - id: HalfPriceRerolls
+    name: Half Price Rerolls
+    description: Rerolls in the store are half priced
+    sprAddressable:
+      id: S_Knight
+      spr: {fileID: 21300000, guid: dbc2dc009204f384f83fb7fcbb6e6e29, type: 3}
+    cost: 5
+    weight: 1
+    effectID: rerollCost
+    effectVar: 0.5
+    effectVar2: N/A
+    triggerID: passive
+  - id: DeadManScoring
+    name: Dead Man Scoring
+    description: Gain +20 Points for every piece of yours that is destroyed
+    sprAddressable:
+      id: S_Bishop
+      spr: {fileID: 21300000, guid: 3991ff03c45db844687159ee45ddb5b3, type: 3}
+    cost: 5
+    weight: 1
+    effectID: pointAdd
+    effectVar: 20
+    effectVar2: N/A
+    triggerID: allyDeath
+  - id: Hoarder
+    name: Hoarder
+    description: Gain +2 Mult for every card held at the end of your turn
+    sprAddressable:
+      id: S_Rook
+      spr: {fileID: 21300000, guid: 580373cf13fd2f4468d894429e945ef9, type: 3}
+    cost: 5
+    weight: 1
+    effectID: multiplierAddPerVar
+    effectVar: 2
+    effectVar2: heldCards
+    triggerID: turnEnd
+  - id: Greedy
+    name: Greedy
+    description: Increase Card Limit By 1
+    sprAddressable:
+      id: S_King
+      spr: {fileID: 21300000, guid: ce9ff1f863678d74381ade2166ecf691, type: 3}
+    cost: 8
+    weight: 1
+    effectID: cardLimitAdd
+    effectVar: 1
+    effectVar2: N/A
+    triggerID: passive
+  - id: Overstocked
+    name: Overstocked
+    description: The Store Front always has 1 extra card
+    sprAddressable:
+      id: S_Queen
+      spr: {fileID: 21300000, guid: e8c9493c28893334fb3d338c27f80d1b, type: 3}
+    cost: 6
+    weight: 1
+    effectID: storeSizeAdd
+    effectVar: 1
+    effectVar2: N/A
+    triggerID: passive
+  - id: HorsePower
+    name: Horse Power
+    description: Knights can attack again if they defeat an enemy
+    sprAddressable:
+      id: S_Knight
+      spr: {fileID: 21300000, guid: dbc2dc009204f384f83fb7fcbb6e6e29, type: 3}
+    cost: 5
+    weight: 1
+    effectID: turnAdd
+    effectVar: 1
+    effectVar2: Knight
+    triggerID: passive
+  - id: LateralThinking
+    name: Lateral Thinking
+    description: Allows Pawns to move sideways
+    sprAddressable:
+      id: S_Pawn
+      spr: {fileID: 21300000, guid: 7e1973f06b2e69a4fa89233274c49eef, type: 3}
+    cost: 3
+    weight: 1
+    effectID: movementChange
+    effectVar: 0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,4,3,4,0,0,0,5,3,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+    effectVar2: Pawn
+    triggerID: passive
+  - id: GraveRobber
+    name: Grave Robber
+    description: Gain $1 for every piece of yours that is destroyed
+    sprAddressable:
+      id: S_Bishop
+      spr: {fileID: 21300000, guid: 3991ff03c45db844687159ee45ddb5b3, type: 3}
+    cost: 5
+    weight: 1
+    effectID: cashAdd
+    effectVar: 1
+    effectVar2: N/A
+    triggerID: allyDeath
+  - id: RoyalAdvisor
+    name: Royal Advisor
+    description: Kings are worth x3 as much
+    sprAddressable:
+      id: S_King
+      spr: {fileID: 21300000, guid: ce9ff1f863678d74381ade2166ecf691, type: 3}
+    cost: 3
+    weight: 1
+    effectID: valueMultiply
+    effectVar: 3
+    effectVar2: King
+    triggerID: passive

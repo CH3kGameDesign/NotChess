@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Card_Icons
+  m_EditorClassIdentifier: 
+  m_GroupName: Card_Icons
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a663ebdac8c837e45b1de3f53c49af2f
+  m_SerializeEntries:
+  - m_GUID: a3d8e5444f13b5e42a921188189c2bce
+    m_Address: S_ReturnOfTheKing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d414cb66b6cb448469aebb46dc4db978
+    m_Address: S_ArrowStrike
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e28fce8c13071b040a3478c9672521f1
+    m_Address: S_TwiceTheMan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae47d5be954729b48b4b531f2e50d175
+    m_Address: S_HeartChange
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c046740d45868a844ba29f91dbfdd4c8
+    m_Address: S_Monarchy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 007af8dffc108574b89c22b18909dd91
+    m_Address: S_KingsGuard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2473705cfd2b9e041ab5273a65bffce2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8a26af8d7ce03f0448ead56d299b08d6, type: 2}
+    - {fileID: 11400000, guid: ba9a075b9f0a66c44a8c44f956ab9008, type: 2}

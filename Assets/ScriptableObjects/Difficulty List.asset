@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43265a1935b47fc44a877a494b1b5d5b, type: 3}
+  m_Name: Difficulty List
+  m_EditorClassIdentifier: 
+  list:
+  - id: Basic
+    name: Basic
+    description: Basic Difficulty
+    sprAddressable:
+      id: S_Pawn
+      spr: {fileID: 21300000, guid: 7e1973f06b2e69a4fa89233274c49eef, type: 3}
+    roundsPerStage: 3
+    multiplierPerRound: 0.5
+    tarScore:
+      Base: 600
+      Linear: -1000
+      Coefficient2: 200
+      Coefficient3: 1000
+      MilestoneRate: 0
+      MilestoneMultiplier: 0
